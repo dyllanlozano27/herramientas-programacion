@@ -2,83 +2,85 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Dessigner Boss</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Boss</title>
 
     <style>
-        body {
+        * {
+            box-sizing: border-box;
             margin: 0;
-            font-family: Arial;
-            background: #eee;
-            text-align: center;
+            padding: 0;
         }
 
-        header, footer {
-            background: black;
+        body {
+            font-family: Arial, sans-serif;
+            background: #08111f;
             color: white;
-            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        .boton {
-            background: white;
-            color: black;
-            padding: 10px;
-            text-decoration: none;
-            border-radius: 8px;
+        .contenedor {
+            text-align: center;
+            background: #0c1626;
+            padding: 50px;
+            border: 1px solid #1c3252;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            width: 90%;
+            max-width: 500px;
         }
 
-        .ropa {
-            background: white;
-            width: 70%;
-            margin: 30px auto;
-            padding: 20px;
-            border: 2px solid black;
-            border-radius: 10px;
+        h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #22d3ee, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
-        .producto {
+        p {
+            color: #b8c4d6;
+            margin-bottom: 30px;
+        }
+
+        .btn {
             display: inline-block;
-            background: #eee;
-            width: 180px;
-            margin: 10px;
-            padding: 15px;
-            border-radius: 10px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 30px;
+            background: linear-gradient(135deg, #22d3ee, #a855f7);
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
         }
     </style>
 </head>
 
 <body>
 
-    <header>
-        <h1>Dessigner Boss</h1>
-        <p>Tu estilo, tu forma de vestir</p>
+    <div class="contenedor">
+        <h1>Designer Boss</h1>
 
-        <a href="../../index.html" class="boton">
-            Volver a mi portada
+        <p>
+            Bienvenido a Designer Boss.
+            Aquí comienza tu experiencia de diseño web.
+        </p>
+
+        <a href="index.html" class="btn">
+            ← Volver al inicio
         </a>
-    </header>
-
-    <div class="ropa">
-        <h2>Nuestra ropa</h2>
-
-        <div class="producto">
-            <h3>Camisetas</h3>
-            <p>Diseños modernos y cómodos.</p>
-        </div>
-
-        <div class="producto">
-            <h3>Pantalones</h3>
-            <p>Estilo para cualquier ocasión.</p>
-        </div>
-
-        <div class="producto">
-            <h3>Gorras</h3>
-            <p>El complemento perfecto.</p>
-        </div>
     </div>
-
-    <footer>
-        Dessigner Boss © 2026
-    </footer>
 
 </body>
 </html>
+
