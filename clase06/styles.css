@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #eeeeee;
+    text-align: center;
+}
+
+header, footer {
+    background: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.boton {
+    background: #ffffff;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.ropa {
+    background: #ffffff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.producto {
+    display: inline-block;
+    background: #eeeeee;
+    width: 180px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
