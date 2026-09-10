@@ -1,23 +1,19 @@
-ody {
-  background: #06101a;
-  color: #e6f1ff;
-  font-family: Arial, sans-serif;
-  padding: 20px;
+body {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
 }
 
-h1 {
-  color: #22d3ee;
+header {
+    background-color: #6c5ce7;
+    color: white;
 }
 
-h2 {
-  color: #a855f7;
+button {
+    background-color: #00b894;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
 }
 
-.tarea {/* Tu primera hoja de estilos */
-b
-  background: #0c1626;
-  border: 1px solid #1c3252;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin-bottom: 10px;
-}
