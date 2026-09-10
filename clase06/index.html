@@ -2,85 +2,90 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Designer Boss</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
         body {
-            font-family: Arial, sans-serif;
-            background: #08111f;
+            font-family: Arial;
+            background-color: #111;
             color: white;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .contenedor {
             text-align: center;
-            background: #0c1626;
-            padding: 50px;
-            border: 1px solid #1c3252;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            width: 90%;
-            max-width: 500px;
         }
 
         h1 {
-            font-size: 42px;
-            margin-bottom: 15px;
-            background: linear-gradient(135deg, #22d3ee, #a855f7);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #a855f7;
         }
 
-        p {
-            color: #b8c4d6;
-            margin-bottom: 30px;
+        .productos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
         }
 
-        .btn {
-            display: inline-block;
-            padding: 12px 24px;
+        .producto {
+            background-color: #222;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .producto:hover {
+            background-color: #333;
+        }
+
+        button {
+            background-color: #a855f7;
             border: none;
-            border-radius: 30px;
-            background: linear-gradient(135deg, #22d3ee, #a855f7);
-            color: #000;
-            font-weight: bold;
-            text-decoration: none;
-            cursor: pointer;
-            transition: 0.3s;
+            padding: 10px;
+            border-radius: 5px;
         }
 
-        .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+        a {
+            color: white;
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="contenedor">
-        <h1>Designer Boss</h1>
+    <h1>Designer Boss</h1>
 
-        <p>
-            Bienvenido a Designer Boss.
-            Aquí comienza tu experiencia de diseño web.
-        </p>
+    <p>Ropa con estilo para todos</p>
 
-        <a href="index.html" class="btn">
-            ← Volver al inicio
-        </a>
+    <h2>Nuestros productos</h2>
+
+    <div class="productos">
+
+        <div class="producto">
+            <h3>👕 Camisa</h3>
+            <p>Camisa negra</p>
+            <p>$60.000</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="producto">
+            <h3>👖 Pantalón</h3>
+            <p>Pantalón clásico</p>
+            <p>$90.000</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="producto">
+            <h3>🧢 Gorra</h3>
+            <p>Gorra Designer</p>
+            <p>$40.000</p>
+            <button>Comprar</button>
+        </div>
+
     </div>
+
+    <br><br>
+
+    <a href="index.html">← Volver al inicio</a>
 
 </body>
 </html>
+
 
